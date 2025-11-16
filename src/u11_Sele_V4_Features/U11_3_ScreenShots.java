@@ -32,7 +32,8 @@ public class U11_3_ScreenShots {
 		FileUtils.copyFile(srcFile, new File(destn + "/testOutput/" + "name.png"));
 
 		driver.quit();
-		System.out.println("Doneaa");
+		System.out.println("Done");
+		System.out.println("Dummy Changes for Git");
 
 	}
 }
