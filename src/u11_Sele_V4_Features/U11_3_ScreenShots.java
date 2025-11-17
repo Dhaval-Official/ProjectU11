@@ -34,7 +34,7 @@ public class U11_3_ScreenShots {
 		driver.quit();
 		System.out.println("Done");
 		System.out.println("Dummy Changes for Git");
-		System.out.println("Dummy Changes for Git2");
+		
 
 	}
 }
