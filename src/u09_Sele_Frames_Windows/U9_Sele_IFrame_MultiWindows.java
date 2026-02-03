@@ -1,5 +1,8 @@
 package u09_Sele_Frames_Windows;
 
+import java.util.Set;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -30,7 +33,7 @@ public class U9_Sele_IFrame_MultiWindows {
 	
 		
 //U9.59 MultiWindow
-/*		
+		
 		driver.manage().window().maximize();
 		driver.get("https://codenboxautomationlab.com/practice/");
 		
@@ -51,7 +54,7 @@ public class U9_Sele_IFrame_MultiWindows {
 		//getting back to parent Window
 		driver.switchTo().window(parentWindowId);
 		driver.findElement(By.cssSelector("input[value='radio1']")).click();
-*/		
+		
 
 		System.out.println("Done");
 		
